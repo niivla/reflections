@@ -12,6 +12,8 @@ Describe the differences between forks, clones, and branches.  When would you us
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
+  By this, we can make sure when there is a conflict between local and remote files, an out-of-sync issue. For if our file has been remotely and locally modified, the label of the origin/master (local) would not be at the same point as the remote master label. If that would the case, when we want to pull, git would check if those points are the same, and if not, it will make a branch and take the lastest change to local; then it will try to merge the file or prompt us so we can merge it manually.
+
 How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
 
 When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
