@@ -19,3 +19,5 @@ How would you collaborate without using Git or GitHub?  What would be easier, an
   Well, we could collaborate in an office or by mail, telling the changes before and after happening. We could use other version-control systems, but I assume the question refers to any online version-control. By reuniting before coding it would be easier to have a whole view of the project and we would have more control of what we do and not do; but in terms of time and efficience, it would be a bit harder.
 
 When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
+
+  Apart from experimenting and adding new functions and keeping the master branch as production code, we can use branching to commit changes that we want to be revised. We just use master to update our code and have a fully functional project. Each approach has its own benefits; changing in branches makes keeping our master intact possible, and changing in master just makes all faster, and it's the way to go when we're just making small changes or changes we know it would be for release.
