@@ -1,5 +1,7 @@
 When would you want to use a remote repository rather than keeping all your work local?
 
+  When there's a sensible possibility of losing all your data (and that possibility is always present...). Also whenever you work with a development team or you want to share your work to the world!
+
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 Describe the differences between forks, clones, and branches.  When would you use one instead of another?
