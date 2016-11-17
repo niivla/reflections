@@ -23,3 +23,5 @@ What is the result of merging two branches together? Why do we represent it in t
   We can set all the changes and features added in one branch, that we separated so we do not destroy anything important, to be present into the main (master) branch, so it's like production code. We represent that way because it's the most intuitive way to check out if two branches have merged, joining them in one dot.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+  The pros are less work and do things straightforwardly. The cons is that it may merge something you don't want. In these cases, you should merge manually.
